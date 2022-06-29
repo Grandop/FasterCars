@@ -274,17 +274,17 @@ h3 {
 
   .box-p {
     background: rgb(255, 140, 0);
-    margin: 20px 0;
-    padding: 0px 30px 30px 30px;
+    margin: 2rem 0;
+    padding: 0px 3rem 3rem 3rem;
     width: auto;
     height: auto;
   }
 
   .about-container iframe {
     border-style: none;
-    width: 500px;
-    height: 340px;
-    margin: 30px 0 0 0;
+    width: 50rem;
+    height: 34rem;
+    margin: 3rem 0 0 0;
   }
 }
 /*
@@ -296,31 +296,31 @@ h3 {
   */
   #nav-bar {
     flex-direction: column;
-    height: 150px;
+    height: 15rem;
   }
   #header-img {
     position: static;
-    height: 80px;
-    margin-top: 5px;
+    height: 8rem;
+    margin-top: .5rem;
   }
   #nav-bar li {
     display: inline-block;
-    padding: 3px 15px;
+    padding: .3rem 1.5rem;
     background: white;
-    margin: 8px 5px;
+    margin: .8rem .5rem;
   }
   /*
    @media for your title container.
   */
   .title {
-    padding: 60px 100px;
-    margin: 20px 50px;
+    padding: 6rem 10rem;
+    margin: 2rem 5rem;
   }
   /*
    @media for your about container.
   */
   .about-container {
-    height: 750px;
+    height: 75rem;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -329,7 +329,7 @@ h3 {
 
   .box-p {
     background: rgb(255, 140, 0);
-    margin-top: 10px;
+    margin-top: 1rem;
     margin-left: 0px;
     padding: 0px;
     width: auto;
@@ -337,56 +337,56 @@ h3 {
   }
   .about-container h3 {
     color: white;
-    margin: 5px;
-    padding: 5px;
+    margin: .5rem;
+    padding: .5rem;
   }
   .about-container p {
-    font-size: 26px;
+    font-size: 2.6rem;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
   .about-container iframe {
     border-style: none;
-    width: 370px;
-    height: 285px;
-    margin: 30px 0 0 0;
+    width: 37rem;
+    height: 28.5rem;
+    margin: 3rem 0 0 0;
   }
   .card {
-    margin: 25px 10px 5px 10px;
-    width: 360px;
+    margin: 2.5rem 1rem .5rem 1rem;
+    width: 36rem;
   }
   /*
   @media for contact container.
   */
   .contact-container {
-    height: 700px;
-    padding: 10px;
+    height: 70rem;
+    padding: 1rem;
   }
   .contact-background {
     background: rgb(22, 22, 22, 0.9);
-    padding: 30px;
-    margin: 10px;
+    padding: 3rem;
+    margin: 1rem;
   }
   .contact-container input {
-    padding: 5px;
-    width: 300px;
-    font-size: 15px;
+    padding: .5rem;
+    width: 30rem;
+    font-size: 1.5rem;
   }
   .contact-container label {
     display: block;
-    font-size: 26px;
-    margin: 10px 0;
+    font-size: 2.6rme;
+    margin: 1rem 0;
   }
   .contact-container textarea {
-    font-size: 15px;
-    padding: 5px;
-    width: 300px;
-    height: 140px;
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 30rem;
+    height: 14rem;
   }
   .contact-container button {
-    width: 300px;
-    margin: 25px 0 0 0;
-    padding: 10px;
+    width: 30rem;
+    margin: 2.5rem 0 0 0;
+    padding: 1rem;
   }
 }
 
@@ -396,12 +396,12 @@ h3 {
   margin-top: 11rem;
 }
 .product-details img {
-  max-width: 600px;
-  max-height: 400px;
+  max-width: 60rem;
+  max-height: 40rem;
 }
 
 .product-details img {
-  border-radius: 4px;
+  border-radius: .4rem;
 }
 
 .product-details .content {
@@ -415,22 +415,22 @@ h3 {
 .product-details .info {
   background-color: white;
   padding: 1.5rem 2.5rem;
-  border-radius: 8px;
+  border-radius: .8rem;
   margin: 0 6rem;
 }
 
 .product-details .info h2 {
   color: black;
-  font-size: 30px;
+  font-size: 3rem;
 }
 .product-details .info p {
   color: black;
-  font-size: 21px;
+  font-size: 2.1rem;
   margin-top: 1.4rem;
 }
 .product-details .info li {
   color: black;
-  font-size: 21px;
+  font-size: 2.1rem;
   margin-top: 1.4rem;
 }
 
@@ -438,7 +438,7 @@ h3 {
   padding: 0.6rem 1.4rem;
   background-color: rgb(49, 49, 201);
   color: white;
-  font-size: 21px;
-  border-radius: 8px;
+  font-size: 2.1rem;
+  border-radius: .8rem;
   text-decoration: none;
 }
