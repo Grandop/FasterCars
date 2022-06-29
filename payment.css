@@ -16,13 +16,13 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 .payment-container {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25lg1a6eIn8sKy5tkIRgC9AgeaYylF77c2g&usqp=CAU);
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/18/15/58/vw-1835506_960_720.jpg);
   background-size: cover;
   height: calc(100vh - 11rem);
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: no-scroll;
+  overflow-y: hidden;
   font-size: 1rem;
   text-decoration: none;
   color: rgb(255, 255, 255);
