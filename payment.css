@@ -19,28 +19,28 @@ input::-webkit-inner-spin-button {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25lg1a6eIn8sKy5tkIRgC9AgeaYylF77c2g&usqp=CAU);
   background-size: cover;
   height: calc(100vh - 11rem);
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: hidden;
-  font-size: 10px;
+  overflow-y: no-scroll;
+  font-size: 1rem;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
 .payment-background {
   background: rgb(22, 22, 22, 0.9);
 
-  padding: 30px 30px;
+  padding: 3rem 3rem;
 }
 .payment-background label {
   display: block;
-  padding-top: 15px;
+  padding-top: 1.5rem;
 }
 .payment-background input {
-  height: 30px;
-  width: 300px;
+  height: 3rem;
+  width: 30rem;
 }
 .titulo {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
