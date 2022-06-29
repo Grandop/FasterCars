@@ -4,33 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="paymentstyle.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="/assets/fastcarlogo.jpg" />
     <title>Faster Cars</title>
-    <body>
-      <header id="header">
-        <nav id="nav-bar">
-          <!--
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <!--
      Nav bar who are the buttons.
 -->
-          <div class="logo">
-            <a href="#title-container"
-              ><img src="/assets/logo1.png" alt="logo" id="header-img"
-            /></a>
-          </div>
-          <div>
-            <ul>
-              <li><a href="/home.html" class="nav-link">Sobre</a></li>
+        <div class="logo">
+          <a href="#title-container"
+            ><img src="/assets/logo1.png" alt="logo" id="header-img"
+          /></a>
+        </div>
+        <div>
+          <ul>
+            <li><a href="/home.html" class="nav-link">Sobre</a></li>
 
-              <li><a href="/product.html" class="nav-link">Produtos</a></li>
+            <li><a href="/product.html" class="nav-link">Produtos</a></li>
 
-              <li><a href="/contact.html" class="nav-link">Contato</a></li>
+            <li><a href="/contact.html" class="nav-link">Contato</a></li>
 
-              <li><a href="/payment.html" class="nav-link">Pagamento</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    </body>
-  </head>
+            <li><a href="/payment.html" class="nav-link">Pagamento</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="payment-container">
+    <div class="payment-background"> 
+      <h1 class="titulo">Dados do titular do cartão
+    <form id="form">
+      <div >
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" required />
+      </div>
+      <div>
+        <label for="cpf">CPF*</label>
+        <input type="number" name="cpf" placeholder="___-___-___-__" required/>
+      </div>
+      <div>
+        <label for="numCartao">Número do cartão</label>
+        <input type="number" name="cartao" required>
+      </div>
+      <div >
+        <label for="vencimento">Vencimento do cartão</label>
+        <input type="date" name="vencimento" required />
+      </div>
+      <div >
+        <label for="codigoSegurança">Código de segurança</label>
+        <input type="text" name="segurança" maxlength="3" placeholder="CVV" required>
+      </div>
+      <div >
+        <label for="telefone">Telefone</label>
+        <input type="number" name="telefone" placeholder="(__)____-____" required>
+      </div>
+      <div>
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" name="nascimento" required>
+      </div>
+    </div>
+  </div>
+    </form>
+  </body>
 </html>
