@@ -264,7 +264,7 @@ h3 {
 /*
 @media for work width=1400px.
 */
-@media all and (max-width: 1400px) {
+@media (min-width: 1024px) {
   .about-container {
     display: flex;
     flex-direction: column;
