@@ -10,15 +10,20 @@ body {
   font-size: 62.5%; /* 1rem = 10px */
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .payment-container {
   background-image: url(https://cdn.pixabay.com/photo/2016/11/18/15/58/vw-1835506_960_720.jpg);
   background-size: cover;
-  height: calc(100vh - 11rem);
+  margin-top: -1rem;
+  height: 83.9rem;
   display: flex;
   justify-content: center;
   align-items: center;
